@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>منو کارسازشو</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/fonts/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/editing-bs3.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/fonts.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar hidden-xs hidden-sm">
+      <!-- container -->
+      <div class="container">
+        <div class="d-flex rtl align-items-center">
+          <!-- menu -->
+          <div class="col-lg-2 col-md-3">
+            <div class="btn text-white navbar__menu-hover" id="toggle-menu">
+              <div
+                id="clicked-toggle-menu"
+                class="d-flex justify-content-center align-items-center"
+              >
+                <div class="menu-hover__icon" id="toggle-menu__width">
+                  <div
+                    class="menu-hover__icon_width hover__icon_width-one"
+                  ></div>
+                  <div
+                    class="menu-hover__icon_width hover__icon_width-two"
+                  ></div>
+                  <div
+                    class="menu-hover__icon_width hover__icon_width-three"
+                  ></div>
+                </div>
+                دسته بندی دوره ها
+              </div>
+
+              <div class="toggle-menu__menu">
+                <aside class="aside-menu">
+                  <ul
+                    class="d-flex flex-column justify-content-center nav"
+                    id="sidebar-menu"
+                  >
+                    <li class="activate">
+                      <a href="#" data-content="content-1" class="sidebar">
+                        زبان های برنامه نویسی
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" data-content="content-2" class="sidebar">
+                        گرافیست
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" data-content="content-3" class="sidebar">
+                        کوفت
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" data-content="content-4" class="sidebar">
+                        زهرمار
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" data-content="content-5" class="sidebar">
+                        پیچ پیچی
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" data-content="content-6" class="sidebar">
+                        نخودچی
+                      </a>
+                    </li>
+                  </ul>
+                </aside>
+
+                <div class="div-menu bg-dark">
+                  <!-- content -->
+                  <!-- برای استفاده ازش فقط کافیه کلاس اول اکتیویت داشته باشه -->
+                  <!-- به تعداد تارگت های بالا باید کانتنت باشه البته نبود اروری نمیده ولی چیزیم بالا نمیاره وقتی روی تارگت  کلیک کنیم -->
+                  <ul class="justify-content-start content-sidebar activate">
+                    <li><a href="#" class="text-light">جاوا</a></li>
+                    <li><a href="#" class="text-light">جاوااسکریپت</a></li>
+                    <li><a href="#" class="text-light">پایتون</a></li>
+                    <li><a href="#" class="text-light">سی شارپ</a></li>
+                    <li><a href="#" class="text-light">سوییفت</a></li>
+                    <li><a href="#" class="text-light">دارت</a></li>
+                    <li><a href="#" class="text-light">GO</a></li>
+                    <li><a href="#" class="text-light">سی</a></li>
+                  </ul>
+
+                  <ul class="justify-content-start content-sidebar">
+                    <li><a href="#" class="text-light">فوتوشاپ</a></li>
+                    <li><a href="#" class="text-light">موشن گرافیک</a></li>
+                    <li><a href="#" class="text-light">افترافکت</a></li>
+                    <li><a href="#" class="text-light">موشن</a></li>
+                  </ul>
+
+                  <ul class="justify-content-start content-sidebar">
+                    <li><a href="#" class="text-light">1</a></li>
+                    <li><a href="#" class="text-light">2</a></li>
+                    <li><a href="#" class="text-light">3</a></li>
+                    <li><a href="#" class="text-light">4</a></li>
+                  </ul>
+
+                  <ul class="justify-content-start content-sidebar">
+                    <li><a href="#" class="text-light">1</a></li>
+                    <li><a href="#" class="text-light">2</a></li>
+                    <li><a href="#" class="text-light">3</a></li>
+                    <li><a href="#" class="text-light">4</a></li>
+                  </ul>
+
+                  <ul class="justify-content-start content-sidebar">
+                    <li><a href="#" class="text-light">1</a></li>
+                    <li><a href="#" class="text-light">2</a></li>
+                    <li><a href="#" class="text-light">3</a></li>
+                    <li><a href="#" class="text-light">4</a></li>
+                  </ul>
+
+                  <ul class="justify-content-start content-sidebar">
+                    <li><a href="#" class="text-light">1</a></li>
+                    <li><a href="#" class="text-light">2</a></li>
+                    <li><a href="#" class="text-light">3</a></li>
+                    <li><a href="#" class="text-light">4</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- navigation -->
+          <div class="col-lg-6 col-md-7 hidden-xs">
+            <ul class="nav d-flex rtl">
+              <li class="nav-item">
+                <a href="#" class="nav-link">درباره ما</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">پرداخت وجه</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">سوالات متداول</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">قوانین و مقررات</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">استخدام</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- information -->
+          <div class="col-lg-4 d-flex col-md-2">
+            <!-- phone -->
+            <a
+              href="tel:+989399440750"
+              class="border-navbar-left text-secondary text-decoration-none navbar__menu hidden-md"
+            >
+              <i
+                class="fa fa-phone-square-alt text-secondary"
+                aria-hidden="true"
+              ></i>
+              0-939-944-0750
+            </a>
+
+            <!-- total -->
+            <div class="navbar__total d-flex navbar__menu">
+              <div class="ofline">
+                <i class="far fa-heart"></i>
+                <div class="modal-bar">
+                  <p>برای این منظور ابتدا باید وارد حساب کاربری خود شوید.</p>
+                  <button class="btn btn-success btn-block">مشاهده لیست علاقه مندی ها</button>
+                </div>
+              </div>
+              <div>
+                <i class="fas fa-shopping-bag"></i>
+                <div class="modal-bar">
+                  <p>برای این منظور ابتدا باید وارد حساب کاربری خود شوید.</p>
+                  <button class="btn btn-success btn-block">مشاهده لیست علاقه مندی ها</button>
+                </div>
+              </div>
+              <div>
+                <i class="far fa-bell"></i>
+                <div class="modal-bar">
+                  <p>برای این منظور ابتدا باید وارد حساب کاربری خود شوید.</p>
+                  <button class="btn btn-success btn-block">مشاهده لیست علاقه مندی ها</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
