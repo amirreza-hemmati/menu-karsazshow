@@ -127,11 +127,13 @@ ul {
     top: 45px;
     transition: 0.4s !important;
     opacity: 0;
+	visibility: hidden;
 }
 
 .navbar__total > div:hover .modal-bar{
     opacity: 1;
     top: 20px;
+	visibility: inherit;
 }
 
 .modal-bar .btn-block{
