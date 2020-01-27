@@ -49,3 +49,7 @@ sidebarMenu.addEventListener("click", event => {
     }
   }
 });
+
+$(".div-menu > ul > li").hover(function () {
+  $(this).children("ul").fadeToggle(200);
+});

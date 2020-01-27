@@ -242,25 +242,24 @@ ul {
   display: none !important;
 }
 
+.div-menu ul li {
+  cursor: pointer;
+}
+
 .div-menu ul li > ul{
   transition: 0.4s;
   list-style-type: none;
-  padding-right: 0;
   position: relative;
   right:0;
   display: none;
-}
-
-.div-menu ul li:hover ul{
-  display: block;
-  right: 15px;
+  padding-right: 15px;
 }
 
 .div-menu ul li > ul > li > a {
   color: rgb(212, 208, 208);
   text-decoration: none;
 }
-/*
+
 .div-menu ul li:hover > ul {
-  display: block;
-} */
+  padding-right: 15px !important;
+}
